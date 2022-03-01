@@ -21,7 +21,7 @@ from keras.preprocessing.text import Tokenizer
 import os
 import pandas as pd
 
-data=pd.read_csv('https://github.com/kalimass/Dataser/blob/main/Gaja.csv')
+data=pd.read_csv('https://raw.githubusercontent.com/kalimass/Dataser/main/Gaja.csv')
 
 data=data.dropna()
 
