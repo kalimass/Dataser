@@ -11,7 +11,7 @@ import re
 import os
 import pandas as pd
 import numpy as np
-from keras.preprocessing import sequence
+from keras import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from keras.models import Sequential
