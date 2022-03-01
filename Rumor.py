@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 st.write("""DETECTION OF RUMOUR OR NOT RUMOUR IN DEEP LEARNING TECHNIQUES""")#This Shows the Data IN Page. st used to show in web app
          
-image=Image.open('I:/AI.jpg')
+#image=Image.open('I:/AI.jpg')
 st.image(image,caption='ML',use_column_width=True,)
 
 import re
