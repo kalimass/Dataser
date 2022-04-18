@@ -13,10 +13,6 @@ st.header("""DETECTION OF RUMOUR OR NOT RUMOUR IN DEEP LEARNING TECHNIQUES""")#T
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from keras.models import Sequential
-from keras.layers import Dense, Embedding, LSTM
-from keras.preprocessing.sequence import pad_sequences
-from keras.preprocessing.text import Tokenizer
 import pandas as pd
 
 data_url = 'https://raw.githubusercontent.com/kalimass/Dataser/main/Gaja.csv'
