@@ -42,8 +42,7 @@ for idx,row in data1.iterrows():
     row[0] = row[0].replace('rt',' ')
 
 
-max_features= 2000 
-tokenizer =Tokenizer(nb_words=max_features,split=' ')    
+tokenizer =Tokenizer(split=' ')    
 tokenizer.fit_on_texts(data1[a].values)
 X=tokenizer.texts_to_sequences(data1[a].values)#This converts all the binary and increase the frequency of same words
 x=pad_sequences(X)#it converts all the equal lengths of datas
