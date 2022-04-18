@@ -4,7 +4,7 @@ import re
 from sklearn.naive_bayes import MultinomialNB,GaussianNB
 import numpy as np
 import streamlit as st
-from PIL import Image
+#from PIL import Image
 st.header("""DETECTION OF RUMOUR OR NOT RUMOUR IN DEEP LEARNING TECHNIQUES""")#This Shows the Data IN Page. st used to show in web app
 
 #image=Image.open('I:/AI.jpg')
